@@ -1,0 +1,15 @@
+
+{
+    "name": "My Productivity Assistant",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "Get focus !",
+    "background": {
+      "service_worker": "service_worker.js"
+    },
+    "permissions": [
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": ["<all_urls>"]
+  }
